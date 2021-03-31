@@ -1,0 +1,12 @@
+@import 'global/*.scss';
+//@import '/src/scss/global/_null.scss';
+@import '../components/bem-blocks/**/*.scss';
+@import '_header.scss';
+.main {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 70px 15px;
+}
+/* NOTE - import here your style modules */
+@import '_footer.scss';
+@import 'media';
